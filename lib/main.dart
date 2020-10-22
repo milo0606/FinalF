@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               shape: BoxShape.rectangle,
               color: Colors.black
             ),
-            margin: EdgeInsets.only(top: 292),
+            margin: EdgeInsets.only(top: 293),
 
 
           ),
