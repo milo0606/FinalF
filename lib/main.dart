@@ -1,17 +1,21 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter/material.dart';
 
-void main() => runApp(pantallainicio());
+void main() => runApp(MyApp());
 
-class pantallainicio extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        drawer: Drawer(),
         appBar: AppBar(
-          title: Text('Material App Bar'),
+          backgroundColor: Colors.black87,
+          elevation: 6,
+          centerTitle: true ,
+          title: Text("Gaming Nation Store",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25)),
+
         ),
         body: Center(
           child: Container(
